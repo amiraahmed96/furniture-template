@@ -1,0 +1,818 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+/*start header*/
+.header
+{
+   width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.header button
+{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(252,114,30,0.9);
+    border-radius: 0;
+}
+.header .dropdown ul
+{
+    width: 150px;
+    border-radius: 0px;
+}
+.header .dropdown ul li:hover
+{
+    background-color: black;
+    color: white;
+}
+.header p i
+{
+    margin-left: 30px;
+}
+.header p
+{
+    margin-top: 15px;
+    float: left;
+}
+.header .icons i
+{
+    padding: 9px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-left: 15px;
+    margin-top:6px;
+    clear: both;
+}
+.header .icons i:hover
+{
+   background-color: tomato;
+    transition: all 0.5s ease-in-out;
+}
+/*end header*/
+
+
+/*start navbar*/
+.active1
+{
+    background-color: rgba(252,114,30,0.9);
+    color: white;
+}
+.navbar
+{
+   width: 100%;
+    height: 100px;
+}
+nav #menuitem 
+{
+    display: none;
+}
+nav ul
+{
+    list-style-type: none;
+    margin-left: 30%;
+    width: 70%;
+    margin-top: 30px;
+}
+.navbar ul li
+{
+    float: left;
+    padding: 15px;
+    border-radius: 6px;
+}
+.navbar ul li:hover
+{
+    background-color: rgba(252,114,30,0.9);
+   
+}
+.navbar ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+.navbar ul li:hover a
+{
+     color: white;
+}
+.navbar a img
+{
+    float: left;
+    margin: 30px;
+}
+/*end navbar*/
+
+
+/*start slide show*/
+.carousel .item img
+{
+    width: 100%;
+    height: 70%;
+}
+.carousel button
+{
+    background-color: rgba(252,114,30,0.9);
+    color: white;
+    width: 120px;
+    border: none;
+}
+.carousel button:hover
+{
+    background-color: gray;
+}
+/*end slide show*/
+
+.decorators
+{
+    margin-top: 5%;
+}
+.decorators .d1
+{
+    background-color: black;
+    padding: 30px;
+    text-align: justify;
+    height: 600px;
+    line-height: 30px;
+}
+.decorators .d1 h2 ,.decorators .d1 h3
+{
+    color: white;
+}
+.decorators .d1 p
+{
+    color: gray;
+}
+.decorators .d1 span
+{
+    color: rgba(252,114,30,0.9);
+}
+.decorators .d2 .a1 ,.decorators .d2 .a2 
+{
+    float: left;
+}
+.decorators .d2 .a1
+{
+    width: 20%;
+}
+.decorators .d2 .a2
+{
+    width: 80%;
+}
+.decorators a
+{
+    text-decoration: none;
+    color: tomato;
+}
+
+
+
+
+
+
+/*services*/
+.services
+{
+    margin-top: 10%;
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+}
+.services h2
+{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.services .s1
+{
+    background-color: white;
+    margin: 10px;
+    width: 100%;
+    height: 35%;
+    padding: 10px;
+    padding-top: 30px;
+}
+.services .s1:hover
+{
+    background-color: rgba(252,114,30,0.9);
+    color: white;
+    transition: all 1s ease-in-out;
+}
+.services .s1 a
+{
+    text-decoration: none;
+    color: rgba(252,114,30,0.9);
+}
+.services .s1:hover a
+{
+    color: white;
+}
+.services .s1 img
+{
+    padding-top: 25px;
+}
+.services .s1 .s2 ,.services .s1 .s3
+{
+    float: left;
+}
+.services .s1 .s2
+{
+    width: 20%;
+}
+.services .s1 .s3
+{
+    width: 80%;
+}
+/**/
+
+
+
+/*Projects*/
+.Projects button
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    margin-top: 5%;
+}
+.Projects ul li a
+{
+    font-size: 20px;
+    color: black;
+}
+.Projects .p2
+{
+    position: absolute;
+    top: 0px;
+}
+.projects img:hover
+{
+    opacity: 0.6;
+}
+.projects table
+{
+    margin-top: 20px;
+}
+.projects ul
+{
+    width: 70%;
+    margin-left: 15%;
+}
+/**/
+
+/**/
+.a
+{
+    background: url(images/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+    margin-top: 10%;
+    color: white;
+}
+.a .containt
+{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+.a .containt h4
+{
+    padding-top: 10%;
+}
+.a .containt button
+{
+    background-color: rgba(0,0,0,0.8);
+    width: 120px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 6px;
+}
+.a .containt button:hover
+{
+    background-color:  rgba(252,114,30,0.9);
+}
+.a5 input:focus ,.a1 select:focus ,.a1 textarea:focus
+{
+    border-color: rgba(252,114,30,0.9);
+}
+.a5 button
+{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 20px;
+    height: 50px
+}
+.a5 button:hover
+{
+    background-color: rgba(252,114,30,0.9);
+}
+/**/
+
+/**/
+.a5
+{
+    margin-top: 10%;
+}
+.a5 h2,.a5 h4 ,.a5 h3
+{
+    color: rgba(252,114,30,0.9);
+}
+/**/
+
+/**/
+.a6
+{
+    background: url(images/light-bedroom-with-wood.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+    margin-top: 10%;
+    color: white;
+}
+.a6 .containt
+{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+.testimonials{
+     padding-top: 50px;
+    padding-bottom: 50px;
+}
+testimonials h1{
+    font-weight: bold;
+}
+.testimonials .item span{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(252,114,30,0.9);
+}
+.testimonials .carousel-inner{
+    min-height: 160px
+}
+.testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+    border: 2px black;
+}
+.testimonials .carousel-indicators .active{
+    background-color: red;
+}
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+    
+}
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+     width: 80px;
+    height: 80px;
+    background: none;
+    border: 2px rgba(252,114,30,0.9) solid;
+}
+.testimonials .carousel-indicators li img{
+    width: 80px;
+    height: 80px;
+}
+/**/
+
+/**/
+.a7
+{
+    margin-top: 10%;
+}
+.a7 ul
+{
+    width: 70%;
+    padding-left: 60px;
+}
+.a7 ul li
+{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+.a7 ul li a
+{
+    color: gray;
+    font-size: 20px;
+}
+.a7 ul li:hover a
+{
+    color: rgba(252,114,30,0.9);
+}
+.a7 .a8
+{
+    width: 100%;
+    height: 60%;
+    border: 0.5px solid gray;
+    margin-top: 30px;
+}
+.a7 .a8 a
+{
+    text-decoration: none;
+    color: black;
+}
+.a7 .a8 a:hover
+{
+    color: rgba(252,114,30,0.9);
+}
+/**/
+
+/**/
+.a9
+{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(252,114,30,0.9);
+    margin-top: 10%;
+    
+}
+.a9 h2 ,.a9 p
+{
+    color: white;
+    
+}
+.a9 h2
+{
+    margin-top: 25%;
+}
+.a9 input
+{
+    background-color: orangered;
+    margin-top: 25%
+}
+.a9 button
+{
+    margin-top: 25%;
+}
+/**/
+
+/**/
+.a10
+{
+    background: url(images/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+}
+.a10 .containt
+{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.a10 img
+{
+    margin-top: 30%;
+}
+.a10 p
+{
+    margin-top: 20px;
+}
+.a10 i
+{
+    color: rgba(252,114,30,0.9);
+}
+.a10 ul
+{
+    list-style-type: none;
+}
+.a10 h2
+{
+    margin-top: 30%;
+    clear: both;
+}
+.a10 ul li
+{
+    float: left;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 5px;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+}
+.a10 ul li:hover
+{
+    background-color: rgba(252,114,30,0.9);
+    transition: all 0.5s ease-in-out;
+}
+.a10 ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.a10 .im img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 20%;
+}
+.a10 .im1 img
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+.a10 input ,.a10 textarea
+{
+    background-color: transparent;
+}
+.a10 button
+{
+    width: 100px;
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+.a10 .im1 a
+{
+    color: rgba(252,114,30,0.9);
+}
+/**/
+
+.footer
+{
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+.footer ul
+{
+    list-style-type: none;
+}
+.footer ul li
+{
+    float: left;
+    padding: 10px;
+}
+.footer ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer ul li a:hover
+{
+    color: rgba(252,114,30,0.9);
+    transition: all 0.5s ease-in-out;
+}
+.footer ul , .footer p
+{
+    margin-top: 40px;
+}
+
+@media (max-width: 992px)
+{
+     .header
+    {
+        height: 30%;
+        align-content: center;
+    }
+      .header button
+    {
+        margin-left: 35px;
+        width: 150px;
+    }
+     .header .dropdown ul
+    {
+        margin-left: 35px;
+        width: 170px;
+    }
+      .header .icons
+    {
+       margin-left: 35px;
+        clear: both;
+    }
+    .header .icons i
+    {
+        clear: both;
+    }
+    .header p i
+    {
+        clear: both;
+        margin-left: 10px;
+    }
+    .navbar a img
+    {
+        width: 120px;
+        height: 50px;
+        margin: 10px;
+    }
+    nav #menuitem 
+    {
+    display: inline-block;
+    font-size: 30px;
+    background-color: rgba(252,114,30,0.9);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    }
+    nav ul ,nav:active ul
+    {
+       position: absolute; 
+       
+    }
+    nav ul
+    {
+       margin-left: 0px;  
+        width: 100%;
+        height: 500px;
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 6px;
+        margin-top: 70px;
+        display: none;
+        z-index: 10000;
+        
+    }
+    nav:hover ul
+    {
+        display: block;
+    }
+    nav ul li
+    {
+        clear: both;
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li a
+    {
+        font-size: 20px;
+        color: white;
+    }
+    nav ul li:hover
+    {
+        background-color: gray;
+    }
+    nav ul:hover li
+    {
+        display: block;
+    }
+    .active1
+    {
+        background-color: transparent;
+    }
+    .carousel
+    {
+        z-index: 1;
+    }
+    .carousel h1 ,.carousel p ,.carousel button
+    {
+        display: none;
+    }
+    .services .s1
+    {
+    height: 50%;
+   
+    }
+    .decorators .d1
+{
+    
+    padding: 15px;
+    text-align: justify;
+    height: 750px;
+    line-height: 20px;
+}
+    
+    
+    .services h2
+    {
+        font-size: 25px;
+         margin-left: 20px;
+    }
+     .services .s1 h3
+    {
+        font-size: 17px;
+       
+    }
+    .services .s1 .s2
+    {
+    width: 30%;
+    }
+    .services .s1 .s3
+    {
+    width: 70%;
+    }
+    .decorators .d1
+    {
+        display: none;
+    }
+    .decorators .d2 .a1 ,.decorators .d2 .a2
+{
+   clear: both;
+    width: 100%;
+}
+    .projects ul li
+    {
+        clear: both;
+        width: 100%;
+        border: 1px solid gray;
+        text-align: center;
+        margin: 6px 0;
+    }
+.projects table
+    {
+        display: none;
+    }
+    .projects .small img
+    {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .a
+    {
+        height: 60%;
+    }
+    .testimonials .carousel-indicators li.active{
+   
+     width: 50px;
+    height: 50px;
+}
+    .testimonials .carousel-indicators li
+    {
+    width: 50px;
+    height: 50px; 
+    }
+  .testimonials .carousel-indicators li img
+    {
+        width: 50px;
+    height: 50px; 
+    }
+    .a6
+    {
+        height: 50%;
+    }
+    .a7 ul
+    {
+        padding-left: 0px;
+    }
+    .a9
+    {
+        height: 70%;
+    }
+    .a9 h2
+    {
+        font-size: 25px;
+    }
+    .a9 h2
+{
+    margin-top: 10%;
+}
+.a9 input
+{
+   
+    margin-top: 5%
+}
+.a9 button
+{
+    margin-top: 10%;
+}
+    .a10
+    {
+        height: 300%;
+    }
+    .a10 h2
+    {
+        font-size: 25px;
+    }
+    .a10 h2
+    {
+        margin-top: 5%;
+    }
+    .footer
+    {
+        height: 300px;
+    }
+    .footer ul li
+    {
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+}
